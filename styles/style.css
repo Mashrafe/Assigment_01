@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8faff;
+}
+
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
+.navbar .logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #4f46e5;
+}
+
+.signup-button {
+  background-color: #4f46e5;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.signup-button: hover {
+  background-color: #caaf38;
+}
+
+
+.banner-content {
+  z-index: 1;
+}
+
+.banner-content h1 {
+  font-size: 36px;
+  color: #111827;
+  margin-bottom: 20px;
+}
+
+.banner-content button {
+  background-color: #4f46e5;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.banner-content button: hover {
+  background-color: #caaf38;
+}
+
+
+.banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  background-image: url('../images/Hero-bg.png');
+  background-repeat: repeat;
+  background-size: contain;
+  position: relative;
+}
+
+.banner h1 {
+  font-size: 36px;
+  color: #111827;
+  margin-bottom: 20px;
+}
+
+.banner button {
+  background-color: #4f46e5;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.banner button:hover {
+  background-color: #caaf38;
+}
+
+
+.action-section {
+  display: flex;
+  justify-content: space-around;
+  align-items:center;
+  padding: 80px 60px;
+  gap: 60px;
+  background-color: #f8faff;
+}
+
+.text-content {
+  max-width: 50%;
+}
+
+.text-content h2 {
+  font-size: 28px;
+  color: #111827;
+  margin-bottom: 16px;
+}
+
+.text-content p {
+  font-size: 16px;
+  color: #6b7280;
+  margin-bottom: 24px;
+}
+
+.preview-button {
+  display: inline-block;
+  background-color: #4f46e5;
+  color: white;
+  text-decoration: none;
+  padding: 12px 20px;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.preview-button:hover {
+  background-color: #caaf38;
+}
+
+.image-content img {
+  max-width: 100%;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
